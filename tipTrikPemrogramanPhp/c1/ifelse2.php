@@ -1,12 +1,8 @@
 <?php
-// Statement if else
+// Statement if else – operator ternary
 
-/* pernyataan kondisional if Dan else */
+/* untuk menyelesaikan logika pemrograman.menggunakan operator ternary /
 $pass = 'okey';
-if ($pass == 'oke'){ 
-  echo 'OKE <br≥';
-} else {
-  echo 'NOT OKE <br≥';
-}
+exho ($pass == 'oke') ? 'OKE' : 'NOT OKE';
 // Hasil: NOT OKE
 ?>
