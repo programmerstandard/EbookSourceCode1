@@ -20,7 +20,7 @@ function valid($param, $array) {
     return true;
 }
 
-// Untuk methid GET
+// Contoh penggunaan untuk methid GET
 // Memastikan bahwa hanya parameter $_GET['msg']
 // dan $_GET['ok'] saja yang boleh dikirim
 if (!valid(array['msg', 'ok'], $_GET)) {
