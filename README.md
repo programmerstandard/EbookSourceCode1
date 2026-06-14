@@ -4,7 +4,7 @@ Source code from ebook
 ## Minimum Requirements
 ### For Java
 * Java Platform, Standard Edition Development Kit. Version according to each e-book source code folder.
-* Using the text editor of your choice.
+* Using the text editor or IDE of your choice.
 
 ### For PHP
 This is for running PHP locally on your PC, not for online servers.
