@@ -14,7 +14,7 @@ This is for running PHP locally on your PC, not for online servers.
 * Install database server of your choice.
 * Or you may install server packages like XAMPP, WAMP, or MAMP, which provide PHP, Apache, and MySQL in one installation. 
 * Install browser according to each e-book source code. Or you can use your browser (has installed before) if 
-* Using the text editor of your choice.
+* Using the text editor or IDE of your choice.
 * Using your terminal software to run the PHP program under terminal.
 
 #### References
