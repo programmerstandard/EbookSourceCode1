@@ -19,13 +19,13 @@
     <author>Prasetyo Adi</author>
     <author>James Linn</author>
     <author>Ginanjar Kusumo</author>
-    <year>2003</year>
-    <price>49.99</price>
+    <year>2009</year>
+    <price>100.000</price>
   </book>
   <book category="WEB">
     <title lang="en">Belajar XML</title>
     <author>Patria Adi</author>
-    <year>2003</year>
-    <price>39.95</price>
+    <year>2010</year>
+    <price>40.950</price>
   </book>
 </bookstore>
