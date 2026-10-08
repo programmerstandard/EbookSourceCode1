@@ -1,46 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" 
-             xmlns:xlink="http://www.w3.org/1999/xlink">
-               <description>
-                   <title-info>
-                         <genre>sf</genre>
-                               <author>
-                                       <first-name>John</first-name>
-                                               <last-name>Doe</last-name>
-                                                     </author>
-                                                           <book-title>Sample FictionBook Document</book-title>
-                                                               </title-info>
-                                                                 </description>
-
-                                                                   <body>
-                                                                       <!-- Main Title Page / Header -->
-                                                                           <title>
-                                                                                 <p>Sample FictionBook Document</p>
-                                                                                     </title>
-
-                                                                                         <!-- TOC Level 1: First Chapter -->
-                                                                                             <section id="chapter_1">
-                                                                                                   <title>
-                                                                                                           <p>Chapter 1: The Beginning</p>
-                                                                                                                 </title>
-                                                                                                                       <p>This is the introductory paragraph of the first chapter.</p>
-
-                                                                                                                             <!-- TOC Level 2: Sub-section -->
-                                                                                                                                   <section id="section_1_1">
-                                                                                                                                           <title>
-                                                                                                                                                     <p>1.1 Early Discoveries</p>
-                                                                                                                                                             </title>
-                                                                                                                                                                     <p>Details about early discoveries appear here.</p>
-                                                                                                                                                                           </section>
-                                                                                                                                                                               </section>
-
-                                                                                                                                                                                   <!-- TOC Level 1: Second Chapter -->
-                                                                                                                                                                                       <section id="chapter_2">
-                                                                                                                                                                                             <title>
-                                                                                                                                                                                                     <p>Chapter 2: The Journey Continues</p>
-                                                                                                                                                                                                           </title>
-                                                                                                                                                                                                                 <p>This is the content for the second chapter.</p>
-                                                                                                                                                                                                                     </section>
-                                                                                                                                                                                                                       </body>
-                                                                                                                                                                                                                       </FictionBook>
-                                                                                                                                                                                                                       
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <description>
+    <title-info>
+      <genre>cs</genre>
+      <author>
+        <first-name>John</first-name>
+        <last-name>Doe</last-name>
+      </author>
+      <book-title>Sample FictionBook Document</book-title>
+    </title-info>
+  </description>
+  <body>
+    <!-- Main Title Page / Header -->
+    <title>
+      <p>Sample FictionBook Document</p>
+    </title>
+    <!-- TOC Level 1: First Chapter -->
+    <section id="chapter_1">
+      <title>
+        <p>Chapter 1: The Beginning</p>
+      </title>
+      <p>This is the introductory paragraph of the first chapter.</p>
+      <!-- TOC Level 2: Sub-section -->
+      <section id="section_1_1">
+        <title>
+          <p>1.1 Early Discoveries</p>
+        </title>
+        <p>Details about early discoveries appear here.</p>
+      </section>
+    </section>
+    <!-- TOC Level 1: Second Chapter -->
+    <section id="chapter_2">
+      <title>
+        <p>Chapter 2: The Journey Continues</p>
+      </title>
+      <p>This is the content for the second chapter.</p>
+    </section>
+  </body>
+</FictionBook>
