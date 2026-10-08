@@ -1,7 +1,3 @@
----
-created: 2026-10-06T05:55:36+07:00
-modified: 2026-10-06T06:06:11+07:00
----
 
 **Table 1.1** PHP's Arithmetic Operator
 
