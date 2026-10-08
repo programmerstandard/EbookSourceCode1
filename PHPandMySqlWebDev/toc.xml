@@ -1,1 +1,74 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body><!-- Table of Contents Section --><w:p><w:pPr><w:pStyle w:val="TOCHeading"/></w:pPr><w:r><w:t>Table of Contents</w:t></w:r></w:p><w:p><w:r><!-- Mark the beginning of the TOC field code --><w:fldChar w:fldCharType="begin"/><w:instrText xml:space="preserve">TOC \o "1-3" \h \z \u</w:instrText><w:fldChar w:fldCharType="separate"/></w:r><!-- Static fallback / placeholder text displayed until Word updates fields --><w:r><w:t>Right-click and select "Update Field" to generate Table of Contents.</w:t></w:r><w:r><!-- Mark the end of the TOC field code --><w:fldChar w:fldCharType="end"/></w:r></w:p><!-- Document Content with Headings --><w:p><w:pPr><w:pStyle w:val="Heading1"/></w:pPr><w:r><w:t>Part 1. Using PHP</w:t></w:r></w:p><w:p><w:r><w:t></w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="Heading2"/></w:pPr><w:r><w:t>1 PHP Crash Course</w:t></w:r></w:p><w:p><w:r><w:t>Details on background context go here.</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="Heading1"/></w:pPr><w:r><w:t>2. System Architecture</w:t></w:r></w:p><w:p><w:r><w:t>Overview of the technical structure.</w:t></w:r></w:p></w:body></w:document>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:body>
+    <!-- Table of Contents Section -->
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="TOCHeading"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Table of Contents</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <!-- Mark the beginning of the TOC field code -->
+        <w:fldChar w:fldCharType="begin"/>
+        <w:instrText xml:space="preserve">TOC \o "1-3" \h \z \u</w:instrText>
+        <w:fldChar w:fldCharType="separate"/>
+      </w:r>
+      <!-- Static fallback / placeholder text displayed until Word updates fields -->
+      <w:r>
+        <w:t>Right-click and select "Update Field" to generate Table of Contents.</w:t>
+      </w:r>
+      <w:r>
+        <!-- Mark the end of the TOC field code -->
+        <w:fldChar w:fldCharType="end"/>
+      </w:r>
+    </w:p>
+    <!-- Document Content with Headings -->
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Part I Using PHP</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>
+          <!-- This section covers the introductory concepts of the document. -->
+        </w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+      </w:pPr>
+      <w:r>
+        <w:t>1 PHP Crash Course</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>
+          <!-- Details on background context go here. -->
+        </w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Part II Using MySQL</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t><!-- Overview of the technical structure. --></w:t>
+      </w:r>
+    </w:p>
+  </w:body>
+</w:document>
