@@ -4,4 +4,7 @@
 Operator | Name | Example |
 --- | --- |--- |
 `+` | Addition | \$a + \$b |
-`-` | Subtraction | \$a - $b
+`-` | Subtraction | \$a - \$b |
+`*` | Multiplication | \$a * \$b |
+`/` | Division | \$a / \$b |
+`%` | Modulus | \$a % \$b |
