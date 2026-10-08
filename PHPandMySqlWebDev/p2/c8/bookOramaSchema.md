@@ -1,2 +1,5 @@
-Customers(<u>CustomerID</u>, Name, Address, City)
-Orders(_OrderID_, CustomerID, Amount, Date)
+Customers(<u>_CustomerID_</u>, Name, Address, City)
+Orders(<u>_OrderID_</u>, CustomerID, Amount, Date)
+Books(<u>_ISBN_</u>, Author, Title, Price)
+Order_Items(<u>_OrderID_</u>, ISBN, Quantity)
+Book_Reviews(ISBN, Review)
