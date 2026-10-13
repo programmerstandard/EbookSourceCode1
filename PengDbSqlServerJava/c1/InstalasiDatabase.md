@@ -1,4 +1,4 @@
-# Instalazi Database SQL Server
+# Instalasi Database SQL Server
 
 # Database
 
