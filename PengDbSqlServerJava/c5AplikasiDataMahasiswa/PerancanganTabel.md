@@ -14,3 +14,14 @@ Agama|varchar|10|
 Fakultas|varchar|50|
 ProgDi|varchar|50|
 
+## Tabel Nilai
+
+Column Name|Data Type|Length|Allow Nulls|
+---|---|---|---|
+NIM|varchar|50||
+Nama|varchar|50||
+Fakultas|varchar|50||
+ProgDi|varchar|50||
+Matkul|varchar|50||
+NFormatif|decimal|9|x|
+NSumatif|decimal|9|x|
