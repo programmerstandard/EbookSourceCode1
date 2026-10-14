@@ -18,7 +18,7 @@ public class MenuGUI extends JFrame implements ActionListener
         //creating and showing this application's GUI.
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                createAndShowGUI();
+                MenuGUI();
             }
         });
     }
