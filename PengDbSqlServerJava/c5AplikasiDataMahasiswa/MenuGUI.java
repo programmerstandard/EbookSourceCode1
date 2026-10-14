@@ -5,7 +5,7 @@ import javax.swing.JMenuItem;
 import javax.swing.JFrame;
 
 
-public class MenuGUI extends JFrame implements
+public class MenuGUI extends JFrame implements ActionListener
 {
     public static void main(String[] args) {
       MenuGUI app = new MenuGUI();
@@ -23,7 +23,7 @@ public class MenuGUI extends JFrame implements
     // Setup JMenuItem
     JMenuItem mhs = new JMenuItem("Data Nahasiswa");
     JMenuItem nilai = new JMenuItem("Nilai Nahasiswa");
-    JMenuItem keluar = new JMenuItem("Keluar");
+    JMenuItem keluar = new JMenuItem("Keluar ");
 
     // Add JMenuItem
     submenu.add(mhs);
