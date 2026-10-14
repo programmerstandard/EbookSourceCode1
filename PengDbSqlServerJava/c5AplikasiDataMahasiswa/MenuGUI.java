@@ -22,6 +22,7 @@ public class MenuGUI extends JFrame implements
 
     // Setup JMenuItem
     JMenuItem mhs = new JMenuItem("Data Nahasiswa");
+    JMenuItem mhs = new JMenuItem("Nilai Nahasiswa");
 
     // Add JMenuItem
     submenu.add(mhs);
