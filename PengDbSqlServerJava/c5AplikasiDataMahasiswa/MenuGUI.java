@@ -20,6 +20,7 @@ public class MenuGUI extends JFrame implements
     JMenu submenu = new JMenu("File");
     submenu.setMnemonic('F');
 
+    // Setup JMenuItem
     JMenuItem mhs = new JMenuItem("Data Nahasiswa");
 
     // Add JMenuItem
