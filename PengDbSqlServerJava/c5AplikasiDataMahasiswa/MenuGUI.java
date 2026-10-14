@@ -11,7 +11,15 @@ import javax.swing.JFrame;
 public class MenuGUI extends JFrame implements ActionListener
 {
     public static void main(String[] args) {
-      MenuGUI app = new MenuGUI();
+    //  MenuGUI app = new MenuGUI();
+
+          //Schedule a job for the event-dispatching thread:
+        //creating and showing this application's GUI.
+        javax.swing.SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                createAndShowGUI();
+            }
+        });
     }
 
   public MenuGUI()
@@ -37,6 +45,8 @@ public class MenuGUI extends JFrame implements ActionListener
     menu.add(submenu);
     setJMenuBar(menu);
 
+    setSize(800,600);
+    show();
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   }
 }
