@@ -6,7 +6,7 @@ import javax.swing.JMenuItem;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JFrame;
-imoirt javax.swing.*;
+import javax.swing.*;
 
 
 public class MenuGUI extends JFrame implements ActionListener
